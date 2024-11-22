@@ -1,0 +1,412 @@
+*{
+    background-color:white ;
+    margin: 0%;
+    padding: 0%;
+
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+.contain{
+    height:75vh ;
+    width: auto;
+    background-image: url("/Images/beautiful-mountains-landscape.jpg");
+    background-size:cover ;
+    display: flex;
+    justify-content: center;
+  
+}
+.main-content {
+    flex: 1;
+}
+
+#about{
+    margin-right: 30px;
+}
+#contact{
+    margin-right: 20px;
+}
+#login{
+    margin-right: 10px;
+}
+
+
+.text_head{
+    display: flex;
+    margin: 1%;
+    justify-content: center;
+    align-items: center;
+    left:50px ;
+    height: 4vh;
+    width: 16vh; 
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    border: 2px  black;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    
+
+}
+
+.text_inside{
+height: 0vh ;
+width: auto;
+position: absolute;
+
+left: 999px;
+display: flex;
+justify-content: center;
+background-color: rgba(255, 255, 255, 0.2);
+
+}
+
+.panel{
+height: 50vh;
+width: 150vh ;
+background-color:#D5CCCC;
+position: absolute;
+margin-top: 15vh;
+border-radius: 30px;
+display: flex;
+justify-content: center;
+
+
+    
+}
+
+
+#radiobutton{
+    position: absolute;
+    bottom:200px;}
+
+
+.options{
+border: 1px solid black;
+height: 10vh;
+width: 90vh ;
+background-color: #EAEAEA;
+position: absolute;
+margin-top: 10vh;
+border-radius: 20px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+
+.chose_options{
+height:80% ;
+width: 14%;
+border-radius: 20px;
+border: 2px solid black;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+
+.chose_options:active{
+    border: 4px solid blue;
+}
+
+.triptype{
+
+    background-color:#D5CCCC;
+    height:10vh ;
+    width: 140vh;
+   
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    z-index: 1; 
+   position: absolute;
+   top:20% ;
+ 
+
+
+}
+#bgcd5cccc{
+    background-color:#D5CCCC;
+}
+.bgcd5cccc{
+    background-color:#D5CCCC;
+}
+
+
+.search_destination{
+
+    background-color:#D5CCCC;
+    height:10vh ;
+    width: 140vh;
+   
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: center;
+    z-index: 1; 
+   position: absolute;
+   top:30% ;
+ 
+
+
+
+}
+
+.textbox{
+height:50px;
+width:150px ;
+font-size: 16px;
+
+
+}
+
+
+
+.search_form{
+
+margin-top: 50px;
+
+}
+.search_form input{
+    margin:2px;
+}
+
+#search_box{
+background-color: #3C7582;
+font-size: 16PX;
+position: absolute;
+top:320% ;
+left: 40% ;
+border-radius: 30px;
+color:white ;
+font-weight: bold;
+font-size: 30px;
+
+
+
+}
+
+#search_box:hover{
+    background-color: purple ;
+}
+
+.offers{
+
+height: 50VH;
+width: auto;;
+margin: auto;
+
+
+
+}
+
+.first2offers{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    background-color: #ddb7b7;
+    
+
+}
+
+.second2offers{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    background-color: #ddb7b7;
+
+}
+#discounted_hotels{
+border: 2px solid black;
+border-radius: 15px;
+margin-bottom: 50px;
+
+}
+#discounted_trains{
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    
+    }
+    #discounted_flights{
+        border: 2px solid black;
+        border-radius: 15px;
+        margin-bottom: 50px;
+        
+        }
+        #discounted_buses{
+            border: 2px solid black;
+            border-radius: 15px;
+            margin-bottom: 50px;
+            
+            }
+
+#offer_tag{
+    font-size:30px;
+    font-weight: 400;
+    height: 10vh;
+    margin-left: 20px;
+}
+
+.footer{
+    background-color: #333;
+    height: 30vh;
+    width: 205vh ;
+    position:absolute;
+    margin-top:300px;
+    display: flex;
+    align-items: center;
+    
+    
+    }
+    
+    #footer_text{
+        color:white ;
+        position: absolute;
+        right:20px ;
+        background-color:#333;
+        font-weight: bold;
+    
+    }
+    
+    #footer_text i {
+        color: #333;
+    
+    
+    
+    }
+    
+    .contact_icon{
+        display: flex;
+        justify-content:space-evenly;
+        height:50px ;
+        width: 150px;
+        margin-left: 20px;
+        background-color: #333;
+    }
+
+.box_fill_error{
+position: fixed;
+top:50% ;
+left: 45%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 25px;
+font-weight: bold;
+background-color: brown;
+
+
+
+
+}
+
+.logout_icon:hover{
+ padding: 200%;
+
+
+
+}
+
+
+
+.myprofile{
+    background-color: rgba(255, 255, 255, 0.0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4vh;
+    width: 9vh; 
+    border-radius: 20px;
+   
+
+  
+   
+}
+.myprofile i{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.0); /* 0.0 because to make the background invisiible */
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+._list{
+
+    font-size: larger;
+    background-color:#D5CCCC;
+    height: 15vh;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px outset black;
+    border-radius: 15px;
+    margin: 5px;
+    
+    
+
+}
+
+
+._list p{
+font-weight: bold;
+background-color:#D5CCCC;
+
+}
+
+._list i{
+   
+    background-color:#D5CCCC;
+    
+    }
+
+._list button{
+    font-size: large;
+    font-weight: bold;
+    color:black;
+    height: 45px ;
+    width: 90px;
+    border:3px solid white;
+    border-radius: 20px;
+    background-color: rgb(121, 221, 121);
+    cursor: pointer;
+}
+._list button:hover{
+    height: 50px ;
+    width: 100px;
+}
+
+
+
+.navbar{
+background-color: #3C7582;
+height:10vh ;
+width: auto;
+border: 2px  black;
+display: flex;
+
+}
+
+#filter{
+    background-color:#cacac2;
+    height:15vh;
+    width:auto;
+    z-index: 2;
+    display: flex;
+    position:sticky;
+    opacity: 90%;
+    border-radius: 5px;
+} 
+
+.logo_container{
+    height:70px ;
+    width: 70px;
+    position: absolute;
+
+    left: 10px;
+}
